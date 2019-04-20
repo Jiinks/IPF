@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 77.221 s <<< FAILURE! - in TestSuite
+FailingTest(IPF_Ex.TestSuite1)  Time elapsed: 26.979 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.cssSelector: #create_account_error ol (tried for 15 second(s) with 500 MILLISECONDS interval)
+	at IPF_Ex.TestSuite1.FailingTest(TestSuite1.java:100)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.cssSelector: #create_account_error ol
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'PI3002', ip: '192.168.0.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: unknown
+	at IPF_Ex.TestSuite1.FailingTest(TestSuite1.java:100)
+

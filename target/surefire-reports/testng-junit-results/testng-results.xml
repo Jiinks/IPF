@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="34" started-at="2019-04-19T18:29:28Z" finished-at="2019-04-19T18:29:28Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="34" started-at="2019-04-19T18:29:28Z" finished-at="2019-04-19T18:29:28Z">
+      <class name="IPF_Ex.TestSuite2">
+        <test-method status="PASS" signature="GetMaxPostIdFromUser()" name="GetMaxPostIdFromUser" duration-ms="8" started-at="2019-04-19T18:29:28Z" finished-at="2019-04-19T18:29:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetMaxPostIdFromUser -->
+        <test-method status="PASS" signature="GetMaxUserId()" name="GetMaxUserId" duration-ms="8" started-at="2019-04-19T18:29:28Z" finished-at="2019-04-19T18:29:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetMaxUserId -->
+        <test-method status="PASS" signature="CreateCommentForPost()" name="CreateCommentForPost" duration-ms="8" started-at="2019-04-19T18:29:28Z" finished-at="2019-04-19T18:29:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCommentForPost -->
+      </class> <!-- IPF_Ex.TestSuite2 -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
